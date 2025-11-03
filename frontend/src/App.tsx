@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import JobPostForm from './jobposting';
+import JobPostForm from './components/jobposting';
 
 function Login({ onLogin }: { onLogin: (role: string) => void }) {
   const [username, setUsername] = useState('');
