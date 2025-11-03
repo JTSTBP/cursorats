@@ -9,7 +9,7 @@ function Login({ onLogin }: { onLogin: (role: string) => void }) {
   return (
     <div className="login-bg">
       <div className="login-container">
-        <h2>Jobs Territory — ATS Login</h2>
+        <h2>Jobs Territory - Login</h2>
         <input
           className="input-box"
           placeholder="Username"
